@@ -1,0 +1,39 @@
+.end-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #0f172a;
+}
+
+.end-card {
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.end-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.end-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #f1f5f9;
+  margin: 0 0 8px;
+}
+
+.winner-message {
+  font-size: 1.1rem;
+  color: #a5b4fc;
+  margin: 0;
+}
+
+.end-new-game {
+  margin-top: 28px;
+}

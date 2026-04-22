@@ -1,0 +1,19 @@
+.waiting-phase {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reveal-ready {
+  margin-top: 24px;
+}
+
+.reveal-ready p {
+  color: #a5b4fc;
+  margin-bottom: 16px;
+}
+
+.btn-reveal {
+  font-size: 1.1rem;
+  padding: 14px 36px;
+}

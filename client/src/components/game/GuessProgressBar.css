@@ -1,0 +1,25 @@
+.guess-progress {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.guess-track {
+  height: 8px;
+  background: #1e293b;
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.guess-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #6366f1, #a5b4fc);
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+
+.guess-label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin: 0;
+}

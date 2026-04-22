@@ -1,0 +1,39 @@
+.pass-interstitial {
+  position: fixed;
+  inset: 0;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.pass-card {
+  text-align: center;
+  padding: 48px 40px;
+  background: #1e293b;
+  border-radius: 16px;
+  max-width: 380px;
+  width: 90%;
+}
+
+.pass-instruction {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pass-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin: 0 0 12px;
+}
+
+.pass-action {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin: 0 0 28px;
+}

@@ -1,0 +1,75 @@
+.reveal-phase {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.score-delta {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: pop-in 0.4s ease;
+}
+
+.score-delta.positive { color: #4ade80; }
+.score-delta.zero     { color: #64748b; }
+
+@keyframes pop-in {
+  0%   { transform: scale(0.7); opacity: 0; }
+  70%  { transform: scale(1.1); }
+  100% { transform: scale(1);   opacity: 1; }
+}
+
+.reveal-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.guess-breakdown {
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+
+.guess-breakdown h3 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 10px;
+}
+
+.guess-breakdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.guess-breakdown li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+.guess-breakdown li.correct span:last-child { color: #4ade80; }
+.guess-breakdown li.wrong  span:last-child { color: #f87171; }
+
+.reveal-actions {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.waiting-host {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-top: 16px;
+}

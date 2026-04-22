@@ -1,0 +1,22 @@
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #334155;
+  margin-bottom: 24px;
+}
+
+.round-counter {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.on-stand {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #a5b4fc;
+}

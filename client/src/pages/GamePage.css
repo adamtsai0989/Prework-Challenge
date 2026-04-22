@@ -1,0 +1,10 @@
+.game-page {
+  min-height: 100vh;
+  background: #0f172a;
+  padding: 24px;
+}
+
+.game-content {
+  max-width: 640px;
+  margin: 0 auto;
+}
